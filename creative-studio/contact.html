@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — NovaFrame Studio</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Premium Animated Background -->
+  <div class="bg-wrap" aria-hidden="true">
+    <div class="blob one"></div>
+    <div class="blob two"></div>
+    <div class="blob three"></div>
+    <div class="noise"></div>
+  </div>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="brand" href="index.html" aria-label="Home">
+        <img src="assets/logo.svg" class="logo" alt="NovaFrame Studio Logo" />
+        <div class="brand-text">
+          <span class="brand-name">NovaFrame</span>
+          <span class="brand-tag">Creative Studio</span>
+        </div>
+      </a>
+
+      <nav class="menu" id="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">Services</a>
+        <a class="active btn small" href="contact.html">Contact</a>
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="page-hero glass card" data-reveal>
+      <h1>Contact</h1>
+      <p>Fill this form for your project requirements (demo form, no backend needed).</p>
+    </section>
+
+    <section class="section contact-grid" data-reveal>
+      <div class="card big glass" data-reveal>
+        <h2>Send a message</h2>
+
+        <form id="contactForm" class="form">
+          <label>
+            Your Name
+            <input required type="text" name="name" placeholder="Enter your name" />
+          </label>
+
+          <label>
+            Email
+            <input required type="email" name="email" placeholder="you@example.com" />
+          </label>
+
+          <label>
+            Project Type
+            <select name="type">
+              <option>Creative Studio Website</option>
+              <option>Logo & Brand Kit</option>
+              <option>Blender Hero Animation</option>
+              <option>UI/UX Design</option>
+            </select>
+          </label>
+
+          <label>
+            Message
+            <textarea required name="message" rows="5" placeholder="Write your requirement..."></textarea>
+          </label>
+
+          <button class="btn wide" type="submit">Send</button>
+          <p class="hint" id="formMsg"></p>
+        </form>
+      </div>
+
+      <div class="card big glass" data-reveal>
+        <h2>Quick info</h2>
+
+        <div class="info-cards">
+          <div class="info glass card">
+            <img src="assets/icons/web.svg" alt="" />
+            <div>
+              <h4>3 pages</h4>
+              <p>Home, Services, Contact</p>
+            </div>
+          </div>
+
+          <div class="info glass card">
+            <img src="assets/icons/motion.svg" alt="" />
+            <div>
+              <h4>3D hero</h4>
+              <p>Blender MP4 (smooth playback)</p>
+            </div>
+          </div>
+
+          <div class="info glass card">
+            <img src="assets/icons/brand.svg" alt="" />
+            <div>
+              <h4>Figma kit</h4>
+              <p>Logo + icons (SVG)</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="divider"></div>
+
+        <h3>Social (edit links)</h3>
+        <div class="social">
+          <a class="pill glass card" href="#">Instagram</a>
+          <a class="pill glass card" href="#">Behance</a>
+          <a class="pill glass card" href="#">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container foot-inner">
+      <p>© <span id="year"></span> NovaFrame Studio. All rights reserved.</p>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">Services</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
