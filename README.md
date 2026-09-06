@@ -65,10 +65,5 @@ python -m http.server 8000
 - The **contact form doesn't actually send anything** — it's a front-end-only demo that shows a fake success message (see `js/main.js`). Hook it up to a real backend (e.g. Formspree, EmailJS, or your own API) before using it in production.
 - The hero video (`hero.mp4`) is a fairly large asset — consider compressing it or lazy-loading it if page load speed matters.
 
-## Live Demo
 
-_Add a GitHub Pages / Netlify / Vercel link here once deployed — a live link is the single biggest upgrade you can give this repo, since it's a visual project best judged by seeing it move._
 
-## License
-
-Add a license of your choice (e.g. MIT) if you intend for others to reuse this code.
